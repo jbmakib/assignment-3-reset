@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.carousel-item h1 {
+    font-size: 60px;
+}
+.item-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("./images/picture_01.jpeg");
+}
+.item-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("./images/picture_02.jpeg");
+}
+.item-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("./images/picture_03.jpeg");
+}
