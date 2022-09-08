@@ -13,9 +13,10 @@
     </head>
     <body>
         <header>
+            <!-- nav starts -->
             <nav class="navbar navbar-expand-lg py-4">
                 <div class="container">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="#home">
                         <h2>Pro Edu</h2>
                     </a>
                     <button
@@ -35,30 +36,31 @@
                                 <a
                                     class="nav-link active"
                                     aria-current="page"
-                                    href="#"
+                                    href="#home"
                                     >Home</a
                                 >
                             </li>
                             <li class="nav-item mx-lg-3 mx-auto">
-                                <a class="nav-link" href="#">Courses</a>
+                                <a class="nav-link" href="#courses">Courses</a>
                             </li>
                             <li class="nav-item mx-lg-3 mx-auto">
-                                <a class="nav-link" href="#">Deals</a>
+                                <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item mx-lg-3 mx-auto">
-                                <a class="nav-link" href="#">Success</a>
+                                <a class="nav-link" href="#register"
+                                    >Register</a
+                                >
                             </li>
                             <li class="nav-item mx-lg-3 mx-auto">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item mx-lg-3 mx-auto">
-                                <a class="nav-link" href="#">Register</a>
+                                <a class="nav-link" href="#faq">FAQ</a>
                             </li>
                         </ul>
                         <div class="ms-md-auto text-center">
                             <button
                                 type="button"
                                 class="btn btn-outline-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal"
                             >
                                 Register
                             </button>
@@ -66,8 +68,11 @@
                     </div>
                 </div>
             </nav>
+            <!-- nav ends -->
+
+            <!-- carousel starts -->
             <div
-                id="carouselExampleControls"
+                id="home"
                 class="carousel slide container"
                 data-bs-ride="carousel"
             >
@@ -128,7 +133,7 @@
                 <button
                     class="carousel-control-prev"
                     type="button"
-                    data-bs-target="#carouselExampleControls"
+                    data-bs-target="#home"
                     data-bs-slide="prev"
                 >
                     <span
@@ -140,7 +145,7 @@
                 <button
                     class="carousel-control-next"
                     type="button"
-                    data-bs-target="#carouselExampleControls"
+                    data-bs-target="#home"
                     data-bs-slide="next"
                 >
                     <span
@@ -150,9 +155,13 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            <!-- carousel ends -->
         </header>
+
+        <!-- header ends and main part of the website starts -->
+
         <main class="container mt-5">
-            <section>
+            <section id="courses">
                 <div class="w-75 m-auto text-center">
                     <h2 class="fw-bold">Discover Our Popular Courses</h2>
                     <p>
@@ -340,6 +349,7 @@
             </section>
             <section
                 class="d-flex align-items-center justify-content-between bg-primary p-5 text-white"
+                id="register"
             >
                 <div class="w-50">
                     <h2>Ready To Join?</h2>
@@ -433,7 +443,7 @@
                     </div>
                 </div>
             </section>
-            <section class="my-5">
+            <section class="my-5" id="faq">
                 <h1 class="text-center">Frequently Asked Questions</h1>
                 <p class="text-center">
                     Here's the answer of most asked question about HTML and CSS
@@ -572,7 +582,7 @@
                     </div>
                 </div>
             </section>
-            <section class="my-5">
+            <section class="my-5" id="about">
                 <h1 class="text-center mb-5">Trusted by over 800+ companies</h1>
                 <div class="d-flex justify-content-between">
                     <div
