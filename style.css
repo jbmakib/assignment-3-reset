@@ -6,19 +6,19 @@ body {
 
 .item-1 {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url("./images/picture_01.jpeg");
+        url("./images/cover/picture_01.jpeg");
     background-size: cover;
     background-position: center;
 }
 .item-2 {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url("./images/picture_02.jpeg");
+        url("./images/cover/picture_02.jpeg");
     background-size: cover;
     background-position: center;
 }
 .item-3 {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url("./images/picture_03.jpeg");
+        url("./images/cover/picture_03.jpeg");
     background-size: cover;
     background-position: center;
 }
